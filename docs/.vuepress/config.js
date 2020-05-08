@@ -59,7 +59,8 @@ module.exports = {
                     title: '年终回顾',
                     children: [
                         ['/Thought/YearReview/2018','2018年'],
-                        ['/Thought/YearReview/2019','2019年']
+                        ['/Thought/YearReview/2019','2019年'],
+                        ['/Thought/YearReview/2020','2020年']
                     ]
                 },
             ],
