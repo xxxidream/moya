@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/logo.jpg 
+heroImage: /img/logo.gif
 heroText: Wiki 1001
 tagline: Meet 1000 Books & UnFit Them Into 1 Wiki
 actionText: Get SWiki →

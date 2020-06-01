@@ -83,13 +83,13 @@ module.exports = {
                 {
                     title: '电影',
                     children: [
-                        ['/Store/Films/','收藏级电影']
+                        ['/Store/Films','收藏级电影']
                     ]
                 },
                 {
                     title: '动画',
                     children: [
-                        ['/Store/Anime/','收藏级动画']
+                        ['/Store/Anime','收藏级动画']
                     ]
                 },
             ]
