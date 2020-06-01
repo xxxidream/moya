@@ -52,7 +52,7 @@ module.exports = {
                 {
                     title: '游记',
                     children: [
-                        ['/Thought/Travels/beiPing','北平游记'],
+                        ['/Thought/Travels/changsha','长沙游记'],
                     ]
                 },
                 {
@@ -61,6 +61,12 @@ module.exports = {
                         ['/Thought/YearReview/2018','2018年'],
                         ['/Thought/YearReview/2019','2019年'],
                         ['/Thought/YearReview/2020','2020年']
+                    ]
+                },
+                {
+                    title: '单反之旅',
+                    children: [
+                        ['/Thought/Photograph/config','单反配置'],
                     ]
                 },
             ],
@@ -95,9 +101,6 @@ module.exports = {
     description: 'Moya个人学习网站,前端开发', // meta 中的描述文字，意义不大，SEO用
     // 注入到当前页面的 HTML <head> 中的标签
     head: [
-        // 增加一个自定义的 favicon(网页标签的图标)
-        // 这里的 '/' 指向 docs/.vuepress/public 文件目录
-        // 即 docs/.vuepress/public/img/geass-bg.ico
         ['link', { rel: 'icon', href: '/img/favicon.ico' }],
     ],
     base: '/', // 这是部署到github相关的配置
